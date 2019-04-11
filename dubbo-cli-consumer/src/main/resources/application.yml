@@ -1,0 +1,8 @@
+#dubbo配置
+dubbo:
+  application:
+    name: dubbo-cli-consumer
+  registry:
+    protocol: zookeeper
+    address: localhost:2181
+    timeout: 2000
